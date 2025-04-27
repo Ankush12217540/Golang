@@ -39,17 +39,20 @@ func main() {
     fmt.Println("slice4:", slice4)
 
     // Changing elements
+    
     slice4[0] = 100
     slice4[1] = 200
     fmt.Println("slice4 after modification:", slice4)
 
     // Copying slices
+
     slice5 := make([]int, len(slice4))
     copy(slice5, slice4)
     fmt.Println("slice5 (copy of slice4):", slice5)
 
     // Modifying slice5 won't affect slice4
     slice5[0] = 500
+
     fmt.Println("After modifying slice5:")
     fmt.Println("slice5:", slice5)
     fmt.Println("slice4:", slice4)
