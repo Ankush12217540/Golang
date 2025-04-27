@@ -75,6 +75,8 @@ func main() {
     fmt.Println()
 
     // 8. Empty Slice (not nil, but length 0)
+
+    
     fmt.Println("8. Empty Slice:")
     emptySlice := []int{}
     fmt.Println("Empty Slice:", emptySlice)
