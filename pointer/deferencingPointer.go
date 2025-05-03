@@ -15,8 +15,11 @@ func main() {
     fmt.Println("Address of x:", &x)
     fmt.Println("Pointer p holds:", p)
 
+
+
     // 3. Dereferencing a Pointer
-    fmt.Println("Value pointed by p:", *p) // Dereferencing - prints 42
+    fmt.Println("Value pointed by p:", *p) 
+    // Dereferencing - prints 42
 
     // Changing the value through pointer
     *p = 100
