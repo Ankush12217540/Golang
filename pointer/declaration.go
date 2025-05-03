@@ -11,6 +11,8 @@ func main() {
     x := 42
     p = &x // p now holds the address of x
 
+
+    
     fmt.Println("Value of x:", x)
     fmt.Println("Address of x:", &x)
     fmt.Println("Pointer p holds:", p)
