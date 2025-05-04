@@ -30,6 +30,7 @@ func main() {
 	// -----------------------------
 	// 4️⃣ Type Inference
 	// -----------------------------
+	
 	// Go automatically detects the type of the value and assigns the correct type to the variable.
 	// So you don't need to write the type explicitly.
 	temperature := 36.5 // Go infers this as float64
