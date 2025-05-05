@@ -51,9 +51,9 @@ func main() {
 	// 4️⃣ Numeric Constants
 	// --------------------------------
 	// Numeric constants are untyped until used.
-	const x = 100     // x is a numeric constant
+	const x =    500  // x is a numeric constant 
 	const y = 3.14    // y is also numeric and can fit into many types
-	const z = x + 1.5 // still valid even mixing types because they're constants
+	const z = x + 9.0 // still valid even mixing types because they're constants
 
 	// You can assign to any compatible numeric type without error
 	var floatVal float64 = y
