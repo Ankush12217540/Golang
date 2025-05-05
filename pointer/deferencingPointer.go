@@ -9,6 +9,7 @@ func main() {
 
     // 2. Getting the Address of a Variable
     x := 42
+
     p = &x // p now holds the address of x
 
     fmt.Println("Value of x:", x)
@@ -17,11 +18,13 @@ func main() {
 
 
 
-    // 3. Dereferencing a Pointer
+    // 3. Dereferencing a Pointer..
+
     fmt.Println("Value pointed by p:", *p) 
     // Dereferencing - prints 42
 
     // Changing the value through pointer
     *p = 100
+    
     fmt.Println("New value of x after changing through pointer:", x)
 }
