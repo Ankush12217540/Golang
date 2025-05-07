@@ -34,7 +34,9 @@ func main() {
 	} else if score >= 80 {
 		fmt.Println("  Grade: B")
 	} else if score >= 70 {
-		fmt.Println("  Grade: C")
+		fmt.Println("  Grade: C") 
+
+		
 	} else {
 		fmt.Println("  Grade: D or below")
 	}
